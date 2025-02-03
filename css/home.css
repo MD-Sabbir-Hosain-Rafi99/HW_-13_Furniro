@@ -23,38 +23,275 @@ p {
   padding: 0;
   line-height: 0.8;
 }
-.container{
-  width: 1286px;
+.container {
+  width: 1320px;
   margin: 0 auto;
+}
+.commonHeaders h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
 }
 /* All Global Css End */
 
-
 /* Header Part Start */
-#headerPart{
+#headerPart {
 }
 
-.flexHeaderPart{
+.flexHeaderPart {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
-.headerListsItem ul li{
+.headerListsItem ul li {
   display: inline-block;
 }
 
-.headerListsItem ul li a{
+.headerListsItem ul li a {
   text-decoration: none;
   color: #000000;
   font-size: 16px;
   padding: 0 36px;
 }
 
-.headerIcons{
+.headerIcons {
   display: flex;
   align-items: center;
   column-gap: 30px;
 }
 /* Header Part End */
+
+/* Banner Part Start */
+#bannerPart {
+  background: url(../images/bannerHome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 154px;
+  padding-bottom: 240px;
+}
+
+.textCardContent {
+  padding: 64px 74px 38px 40px;
+  background: #fff3e3;
+  width: 40%;
+  margin-left: auto;
+  border-radius: 5px;
+}
+.textCardContent p {
+  font-size: 16px;
+  /* padding-right: 174px; */
+  line-height: 18px;
+  padding-bottom: 22px;
+}
+.textCardContent h2 {
+  font-size: 52px;
+  color: #b88e2f;
+  /* padding-right: 174px; */
+  padding-bottom: 22px;
+  line-height: 54px;
+}
+.button {
+  padding-top: 40px;
+}
+.button a {
+  padding: 15px 40px;
+  background: #b88e2f;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* Banner Part End */
+
+/* Home Body Part One Start */
+#bodyPartOne {
+  padding-top: 65px;
+}
+.commonHeaders p {
+  text-align: center;
+  color: #666666;
+  font-size: 20px;
+  padding-top: 22px;
+  padding-bottom: 70px;
+}
+
+.flexRoomsPicturs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.roomOne h3 {
+  padding-top: 30px;
+  padding-bottom: 74px;
+  font-size: 22px;
+}
+.roomOne picture,
+img {
+  width: 100%;
+}
+/* Home Body Part One End */
+
+/* Our Products Part Start */
+.flexProductItemPart {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.productItem {
+  width: 22%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.productItem img {
+  width: 100%;
+  display: block;
+}
+.productImage {
+  position: relative;
+}
+.badge {
+  height: 48px;
+  width: 48px;
+  background: #e97171;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.badge p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.productText {
+  padding: 20px;
+  background: #eeeded;
+}
+.productText h3 {
+  font-size: 24px;
+  color: #3a3a3a;
+  font-weight: bold;
+}
+.productText h4 {
+  font-size: 16px;
+  color: #898989;
+  padding: 20px 0;
+}
+.productText p {
+  font-size: 20px;
+  color: #3a3a3a;
+}
+.productText del {
+  color: #b0b0b0;
+  font-size: 16px;
+  padding-left: 5px;
+}
+.productOverly{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0,0.7);
+  opacity: 0;
+  transition: 0.4s;
+}
+.productItem:hover .productOverly{
+  opacity: 1;
+}
+.overlyContant .btn a{
+  padding: 10px 20px;
+  background: #fff;
+  color: goldenrod;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.social{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+.social a{
+  color: #fff;
+  font-size: 16px;
+  margin: 5px;
+}
+
+/* Show More Button Start */
+.showMoreBtn{
+  display: block;
+  text-align: center;
+}
+.showMoreBtn a{
+  color: #B88E2F;
+  padding: 10px 80px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #B88E2F;
+}
+/* Show More Button End */
+/* Our Products Part End */
+
+
+/* Footer Part Start */
+#footerPart{
+  margin-top: 80px;
+}
+.flexFooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-bottom: 40px;
+}
+.footerColumn1 p{
+  padding-top: 60px;
+  color: #9F9F9F;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footerColumn2 p{
+  color: #9F9F9F;
+  font-size: 16px;
+}
+.footerColumn2 ul li a{
+  color: #000000;
+  font-size: 16px;
+  padding-bottom: 54px;
+}
+.footerColumn3 p{
+  color: #9F9F9F;
+  font-size: 16px;
+}
+.footerColumn3 ul li a{
+  color: #000000;
+  font-size: 16px;
+  padding-bottom: 54px;
+}
+.footerColumn4 p{
+  color: #9F9F9F;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+.myInput{
+  background: transparent;
+  border: none;
+  padding: 10px 20px 5px 0;
+  border-bottom: 2px solid black;
+}
+.tagLineFooter{
+  padding: 40px 0;
+}
+/* Footer Part End */

@@ -1,0 +1,219 @@
+/* All Global Css Start */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  ul,
+  li {
+    list-style-type: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+  }
+  .container {
+    width: 1320px;
+    margin: 0 auto;
+  }
+/* All Global Css End */
+
+
+/* Header Part Start */
+#headerPart {
+}
+
+.flexHeaderPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.headerListsItem ul li {
+  display: inline-block;
+}
+
+.headerListsItem ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  padding: 0 36px;
+}
+
+.headerIcons {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+/* Header Part End */
+
+/* Banner Part Start */
+#shopBannerPart{
+    background: url(../images/shopBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 190px;
+}
+
+.bannerTextShop{
+    text-align: center;
+    padding-top: 80px;
+}
+.bannerTextShop h1{
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+.bannerParagraphShop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Banner Part End */
+
+/* Banner Border Box Start */
+#bannerBorderBox{
+    padding: 45px 0;
+    background: #F9F1E7;
+}
+.flexBorderBoxParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexBorderBoxChild1{
+    display: flex;
+    align-items: center;
+}
+.flexBorderBoxChild1 img{
+    padding-right: 30px;
+}
+.flexBorderBoxChild2 img{
+    padding-right: 40px;
+}
+/* Banner Border Box End */
+
+
+
+/* Our Products Part Start */
+.flexProductItemPart {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .productItem {
+    width: 22%;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .productItem img {
+    width: 100%;
+    display: block;
+  }
+  .productImage {
+    position: relative;
+  }
+  .badge {
+    height: 48px;
+    width: 48px;
+    background: #e97171;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .badge p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  .productText {
+    padding: 20px;
+    background: #eeeded;
+  }
+  .productText h3 {
+    font-size: 24px;
+    color: #3a3a3a;
+    font-weight: bold;
+  }
+  .productText h4 {
+    font-size: 16px;
+    color: #898989;
+    padding: 20px 0;
+  }
+  .productText p {
+    font-size: 20px;
+    color: #3a3a3a;
+  }
+  .productText del {
+    color: #b0b0b0;
+    font-size: 16px;
+    padding-left: 5px;
+  }
+  .productOverly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0,0.7);
+    opacity: 0;
+    transition: 0.4s;
+  }
+  .productItem:hover .productOverly{
+    opacity: 1;
+  }
+  .overlyContant .btn a{
+    padding: 10px 20px;
+    background: #fff;
+    color: goldenrod;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .social{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  .social a{
+    color: #fff;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  /* Show More Button Start */
+  .showMoreBtn{
+    display: block;
+    text-align: center;
+  }
+  .showMoreBtn a{
+    color: #B88E2F;
+    padding: 10px 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #B88E2F;
+  }
+  /* Show More Button End */
+  /* Our Products Part End */
