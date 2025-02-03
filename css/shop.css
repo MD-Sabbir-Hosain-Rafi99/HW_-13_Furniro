@@ -217,3 +217,106 @@
   }
   /* Show More Button End */
   /* Our Products Part End */
+
+
+  /* Buttons Part Start */
+  #buttonsPartStart{
+    margin-bottom: 80px;
+  }
+  .flexButtons{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+  }
+  .one a{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: #F9F1E7;
+    color: #000000;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  .four a{
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: #F9F1E7;
+    color: #000000;
+    font-size: 20px;
+  }
+
+  .one a:hover{
+    border-radius: 5px;
+    background: #B88E2F;
+    color: #fff;
+    font-size: 20px;
+  }
+  .four a:hover{
+    border-radius: 5px;
+    background: #B88E2F;
+    color: #fff;
+    font-size: 20px;
+  }
+  /* Buttons Part End */
+
+
+  /* Warrenty Part Start */
+  #warrentyPart{
+    padding: 90px 0;
+    background: #FAF3EA;
+  }
+  .feature img{
+    width: 100%;
+    padding-top: 20px;
+  }
+  /* Warrenty Part End */
+
+
+  /* Footer Part Start */
+#footerPart{
+    margin-top: 80px;
+  }
+  .flexFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 40px;
+  }
+  .footerColumn1 p{
+    padding-top: 60px;
+    color: #9F9F9F;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footerColumn2 p{
+    color: #9F9F9F;
+    font-size: 16px;
+  }
+  .footerColumn2 ul li a{
+    color: #000000;
+    font-size: 16px;
+    padding-bottom: 54px;
+  }
+  .footerColumn3 p{
+    color: #9F9F9F;
+    font-size: 16px;
+  }
+  .footerColumn3 ul li a{
+    color: #000000;
+    font-size: 16px;
+    padding-bottom: 54px;
+  }
+  .footerColumn4 p{
+    color: #9F9F9F;
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  .myInput{
+    background: transparent;
+    border: none;
+    padding: 10px 20px 5px 0;
+    border-bottom: 2px solid black;
+  }
+  .tagLineFooter{
+    padding: 40px 0;
+  }
+  /* Footer Part End */
