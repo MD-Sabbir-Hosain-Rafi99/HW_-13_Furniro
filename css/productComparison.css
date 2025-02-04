@@ -1,0 +1,142 @@
+/* All Global Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+/* All Global Css End */
+
+/* Header Part Start */
+#headerPart {
+}
+
+.flexHeaderPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.headerListsItem ul li {
+  display: inline-block;
+}
+
+.headerListsItem ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  padding: 0 36px;
+}
+
+.headerIcons {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+/* Header Part End */
+/* Banner Part Start */
+#shopBannerPart {
+  background: url(../images/shopBanner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 190px;
+}
+
+.bannerTextShop {
+  text-align: center;
+  padding-top: 80px;
+}
+.bannerTextShop h1 {
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+.bannerParagraphShop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Banner Part End */
+/* Warrenty Part Start */
+#warrentyPart {
+  padding: 90px 0;
+  background: #faf3ea;
+}
+.feature img {
+  width: 100%;
+  padding-top: 20px;
+}
+/* Warrenty Part End */
+/* Footer Part Start */
+#footerPart {
+  margin-top: 80px;
+}
+.flexFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-bottom: 40px;
+}
+.footerColumn1 p {
+  padding-top: 60px;
+  color: #9f9f9f;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footerColumn2 p {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+.footerColumn2 ul li a {
+  color: #000000;
+  font-size: 16px;
+  padding-bottom: 54px;
+}
+.footerColumn3 p {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+.footerColumn3 ul li a {
+  color: #000000;
+  font-size: 16px;
+  padding-bottom: 54px;
+}
+.footerColumn4 p {
+  color: #9f9f9f;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+.myInput {
+  background: transparent;
+  border: none;
+  padding: 10px 20px 5px 0;
+  border-bottom: 2px solid black;
+}
+.tagLineFooter {
+  padding: 40px 0;
+}
+/* Footer Part End */

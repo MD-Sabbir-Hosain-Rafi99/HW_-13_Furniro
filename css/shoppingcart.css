@@ -267,17 +267,57 @@ p {
 }
 /* Footer Part End */
 
-/* .overlyParent{
-    position: relative;
+.overlyParent {
+  position: relative;
 }
-.overlayChild{
-    position: absolute;
+.overlyChild {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(0, 0, 0,0.7);
-  
-} */
+  background: rgb(0, 0, 0, 0.6);
 
+}
 
+.shoppingCartParent{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    height: 770px;
+    width: 450px;
+    background: #fff;
+}
+
+.shoppingCartFooterPart{
+    margin-top: 220px;
+}
+
+.flexSubTotals{
+    display: flex;
+    column-gap: 140px;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.flexSubTotals .sub1{
+    color: #000000;
+    font-size: 16px;
+}
+.flexSubTotals .sub2{
+    color: #B88E2F;
+    font-size: 16px;
+}
+
+.flexShoppingCartBtn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.flexShoppingCartBtn .cartBtn a{
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #000000;
+}
